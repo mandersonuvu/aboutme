@@ -1,0 +1,28 @@
+body {
+  background: coral;
+  background-image: url("crab_500x500.png");
+  background-repeat: repeat;
+  background-position: 20px;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 60%;
+}
